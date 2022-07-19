@@ -4,8 +4,12 @@
   "description": "Katra JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muslax/katrajs.git"
@@ -19,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/muslax/katrajs/issues"
   },
-  "homepage": "https://github.com/muslax/katrajs#readme"
+  "homepage": "https://github.com/muslax/katrajs#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
 }
