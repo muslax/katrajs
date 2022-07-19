@@ -1,6 +1,6 @@
 {
   "name": "katrajs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Katra JS",
   "main": "index.js",
   "scripts": {
